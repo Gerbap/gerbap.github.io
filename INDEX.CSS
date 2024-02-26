@@ -1,0 +1,28 @@
+.monstyle{
+    border: 5px solid white;
+    border-radius: 30px;
+    height: 300px ;
+    width: 1080 px;
+    background-color: rgb(76, 150, 215);
+    color: white ;
+    font-size: 100px;
+    text-align:  center; 
+    line-height: 250px;
+}
+img {
+    display:flex;
+    width : 250px;
+    height : 250px;
+    float: left;
+    border-radius: 50% ;
+    border: 5px solid white;
+    position: absolute;
+    top: 150%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    }
+div{
+    height: 100px;
+  position: relative;
+  
+}
