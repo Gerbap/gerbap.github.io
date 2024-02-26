@@ -24,5 +24,13 @@ img {
 div{
     height: 100px;
   position: relative;
-  
+}
+.corps_text{
+display: flex;
+align-items: center;
+border: 3px solid black; 
+border-collapse: 50px;
+position: absolute;
+top: 450px;
+left: 1000px;
 }
