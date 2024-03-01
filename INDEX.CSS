@@ -1,13 +1,17 @@
+body{
+    height: 1000px;
+    width: 2000px;
+}
 .monstyle{
     border: 5px solid white;
     border-radius: 30px;
-    height: 300px ;
-    width: 1080 px;
+    height: 200px ;
+    width: 280 px;
     background-color: rgb(76, 150, 215);
     color: white ;
     font-size: 100px;
     text-align:  center; 
-    line-height: 250px;
+    line-height: 200px;
 }
 img {
     display:flex;
@@ -18,19 +22,24 @@ img {
     border: 5px solid white;
     position: absolute;
     top: 150%;
-    left: 13%;
+    left: 10%;
     transform: translate(-50%, -50%);
     }
 div{
     height: 100px;
   position: relative;
 }
-.corps_text{
-display: flex;
-align-items: center;
-border: 3px solid black; 
-border-collapse: 50px;
-position: absolute;
-top: 450px;
-left: 1000px;
+.ligne_h{ 
+    color: white ;
+    font-size: 50px;
+    text-decoration: underline;
+    text-align:  left; 
+    line-height: 350px;
+    border: 5px solid white;    
+    border-radius: 30px;
+    height: 800px ;
+    width: 350px;
+    background-color: rgb(76, 150, 215);
+
+
 }
